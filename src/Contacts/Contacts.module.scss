@@ -1,0 +1,171 @@
+@import "./src/common/styles/sass/variables.scss";
+
+
+.contactsBlock {
+  //padding: 60px 0;
+  background-color: $bgColor;
+  //min-height: 500px;
+
+}
+
+.contactsContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 0;
+}
+
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+
+}
+
+
+.nameArea {
+  border: 1px solid #4a4a4a;
+  background-color: $bgSecondColor !important;
+  margin-top: 40px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nameError {
+  color: red;
+  margin-top: -18px;
+  padding-bottom: -5px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.mailArea {
+  border: 1px solid #4a4a4a;
+  background-color: $bgSecondColor !important;
+  font-family: 'Poppins', sans-serif;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  &:active {
+    background-color: $bgSecondColor !important;
+  }
+  &:valid {
+    background-color: $bgSecondColor !important;
+  }
+}
+
+.emailError {
+  color: red;
+  //padding-top: 5px;
+  //padding-bottom: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;;
+  margin-top: -18px;
+}
+
+.messageArea {
+  min-height: 160px;
+  border: 1px solid #4a4a4a;
+  background-color: $bgSecondColor !important;
+  font-family: 'Poppins', sans-serif;
+  max-width: 494px;
+  resize: none;
+  margin-top: 5px;
+
+}
+
+.btnSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: none;
+  position: relative;
+}
+
+
+//.btnSubmit button{
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//  align-self: center;
+//  border: none;
+//}
+
+.loadProcess {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: $primaryColor;
+  position: absolute;
+  left: 160px;
+  bottom: 15px;
+}
+
+
+@media screen and (max-width: 626px) {
+  .formWrapper {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.contacts {*/
+/*    height:100vh;*/
+/*    background-color: #ffa39e;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.container {*/
+/*    border: 1px solid;*/
+/*    width: 80%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    padding: 80px 0;*/
+/*}*/
+
+/*.contactForm{*/
+/*    width:50%;*/
+/*    background-color: darkcyan;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.contactForm input, .contactForm textarea {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.submitBtn{*/
+/*    padding: 10px 20px;*/
+/*    background-color: brown;*/
+/*}*/

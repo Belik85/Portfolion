@@ -1,0 +1,68 @@
+@import "../common/styles/sass/mixins.scss";
+@import "../common/styles/sass/variables.scss";
+
+.footer{
+  height: 200px;
+    background-color: #252527;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer{
+   width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title {
+    /*background-color: #fff;*/
+  @include aboutMe($textFontFamily, 25px, 1.2, 1px, normal, $textColor);
+  margin-top: 25px;
+
+}
+
+.socialIcons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.socialIcon{
+
+  width: 45px;
+    height: 45px;
+   color: $bgThirdColor;
+
+
+
+}
+
+//.socialIcon :hover, :focus, :active {
+//  -webkit-tap-highlight-color: transparent;
+//  text-decoration: none;
+//outline: none;
+//background-color: $primaryColor;
+//opacity: 1;
+//border: none;
+//}
+
+.socialIcon :hover, :focus {
+
+  color: $primaryColor;
+  opacity: 0.9;
+
+
+}
+
+
+.copyright {
+    padding-bottom: 20px;
+    color: $bgThirdColor;
+  @include text($textFontFamily, 16px, 1.2)
+}

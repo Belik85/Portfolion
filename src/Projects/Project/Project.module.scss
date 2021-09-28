@@ -1,0 +1,82 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.project {
+  width: 450px;
+  /*background-color: #867b56;*/
+  display: flex;
+  flex-direction: column;
+  background-color: $bgSecondColor;
+  margin-bottom: 30px;
+  margin-top: 10px;
+
+  .image {
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.4;
+
+
+
+    }
+
+    .viewBtn {
+      background-color: $primaryColor;
+      padding: 10px 20px;
+      position: relative;
+      z-index: 1;
+      color: $textColor;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+      @include text($titleFontFamily, 22px, 1.2);
+
+      //font-family: 'Josefin Sans', sans-serif;
+      //font-size: 16px;
+      //line-height: 1.2;
+      //color: #fff;
+
+    }
+
+    .description {
+
+      font-weight: 400;
+      @include text($textFontFamily, 16px, 1.8);
+
+
+      //font-family: 'Poppins', sans-serif;
+      //font-size: 12px;
+      //line-height: 1.8;
+      //color: $textColor;
+
+    }
+  }
+}
+
+
+
+

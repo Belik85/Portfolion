@@ -1,0 +1,15 @@
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 80%;
+
+    margin: 0 auto;
+    border: 1px solid;
+
+    /*poslednee chto dobavil*/
+    box-sizing: border-box;
+}

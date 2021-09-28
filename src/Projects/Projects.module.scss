@@ -1,0 +1,64 @@
+@import "../common/styles/sass/variables";
+
+
+.projectsBlock {
+  padding-top: 30px;
+  background-color: $bgColor;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      //margin-top: 20px;
+      align-items: flex-start;
+      @media screen and (max-width: 1129px) {
+        .projects {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+
+//@media screen and (max-width: 1129px) {
+//    .projects {
+//        justify-content: center;
+//    }
+//}
+
+
+/*.title {*/
+/*    margin: 0 0 30px;*/
+/*    font-family: 'Josefin Sans', sans-serif;*/
+/*    text-transform: capitalize;*/
+/*    font-weight: 300;*/
+/*    color: #fff;*/
+/*    font-size: 20px;*/
+/*    line-height: 1.2;*/
+/*    letter-spacing: 3px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.title::before {*/
+/*    content: "";*/
+/*    background: #4e93e6;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    position: absolute;*/
+/*    bottom: -20px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,50%);*/
+/*}*/
+
+/*.title h2 {*/
+/*    margin: 0;*/
+/*}*/
