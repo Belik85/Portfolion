@@ -27,6 +27,7 @@ function Projects(props) {
         backgroundImage: `url(${todoImage})`,
     };
 
+
     // const todo = {
     //
     //     backgroundImage: 'url(' + "../common/images/133908320-concept-of-to-do-list-with-businessman.jpg" + ')',
