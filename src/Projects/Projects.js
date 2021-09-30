@@ -21,7 +21,6 @@ function Projects(props) {
     //     backgroundImage: 'url(' + "../common/images/social-media-sites-800x440.jpg" + ')',
     // };
 
-
     const todo = {
 
         backgroundImage: `url(${todoImage})`,
