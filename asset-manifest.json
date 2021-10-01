@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolion/static/css/main.96d84ff0.chunk.css",
+    "main.js": "/Portfolion/static/js/main.fb3305d2.chunk.js",
+    "main.js.map": "/Portfolion/static/js/main.fb3305d2.chunk.js.map",
+    "runtime-main.js": "/Portfolion/static/js/runtime-main.f98fd4e5.js",
+    "runtime-main.js.map": "/Portfolion/static/js/runtime-main.f98fd4e5.js.map",
+    "static/js/2.ee277dd2.chunk.js": "/Portfolion/static/js/2.ee277dd2.chunk.js",
+    "static/js/2.ee277dd2.chunk.js.map": "/Portfolion/static/js/2.ee277dd2.chunk.js.map",
+    "index.html": "/Portfolion/index.html",
+    "static/css/main.96d84ff0.chunk.css.map": "/Portfolion/static/css/main.96d84ff0.chunk.css.map",
+    "static/js/2.ee277dd2.chunk.js.LICENSE.txt": "/Portfolion/static/js/2.ee277dd2.chunk.js.LICENSE.txt",
+    "static/media/133908320-concept-of-to-do-list-with-businessman.5b272047.jpg": "/Portfolion/static/media/133908320-concept-of-to-do-list-with-businessman.5b272047.jpg",
+    "static/media/Dmytro Beletskyi copy.d755213a.pdf": "/Portfolion/static/media/Dmytro Beletskyi copy.d755213a.pdf",
+    "static/media/counter.18734f63.jpg": "/Portfolion/static/media/counter.18734f63.jpg",
+    "static/media/me.65007bc8.jpg": "/Portfolion/static/media/me.65007bc8.jpg",
+    "static/media/searcher.39d26c53.jpg": "/Portfolion/static/media/searcher.39d26c53.jpg",
+    "static/media/social-media-sites-800x440.c2c3b9b5.jpg": "/Portfolion/static/media/social-media-sites-800x440.c2c3b9b5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f98fd4e5.js",
+    "static/js/2.ee277dd2.chunk.js",
+    "static/css/main.96d84ff0.chunk.css",
+    "static/js/main.fb3305d2.chunk.js"
+  ]
+}
